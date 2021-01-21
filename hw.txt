@@ -1,0 +1,21 @@
+1. what is a class? what is it good for?
+2. what is an instance?
+3. how do we create a new instance?
+4. create a class called Circle
+   properties: double radius
+   function: void printSize
+   * etgar: print the actual size
+   now create 2 circles: one with radius of 5.4 and a second circle with radius 8.7
+   call printSize for each circle you created
+5. create a class called Person
+   peoperties: 
+   string id
+   int yearOfBirth
+   string address
+   function:
+   void sayHello
+   void printHowOldAmI()
+   void printAddress()
+   * etgar: print the actual data ...
+   now create a person for yourself and set the correct data, then call the functions
+   

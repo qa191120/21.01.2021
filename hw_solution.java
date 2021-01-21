@@ -16,6 +16,18 @@ public class Main
         int[] arr = { 1,2,3,4};
         System.out.println(isLonger(arr , 4));
 
+        System.out.println(isNumberInsideArray(arr, 5));
+    }
+
+    private static boolean isNumberInsideArray(int[] arr, int number)
+    {
+        for (int index = 0; index < arr.length; index++)
+        {
+            if (arr[index] == number) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private static String getStringFromUser(String msg) {
